@@ -1,13 +1,10 @@
-all: setup check test run
+all: setup check test
 
 setup:
   yarn
 
 check:
   tsc --project . --noEmit
-
-run:
-  ts-node src/index.ts
 
 test:
   jest --env jsdom
@@ -17,3 +14,6 @@ watch:
 
 watch-check:
   tsc --project . --noEmit --watch
+
+serve:
+  parcel src/index.html

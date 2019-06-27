@@ -1,11 +1,8 @@
 import * as React from "react";
+import { render } from "react-dom";
 
 export const App = () => <>hello world</>;
 
-function run() {
-  console.log("hello world");
-}
-
 if (!module.parent) {
-  run();
+  render(<App />, document.getElementById("app"));
 }
