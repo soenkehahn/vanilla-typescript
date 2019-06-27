@@ -1,6 +1,10 @@
 {
   "name": "vanilla",
   "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   }
