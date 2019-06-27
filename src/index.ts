@@ -1,3 +1,11 @@
-import { run } from "./lib";
+export function add(a: number, b: number): number {
+  return a + b;
+}
 
-run();
+function run() {
+  console.log("hello world");
+}
+
+if (!module.parent) {
+  run();
+}
