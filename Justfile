@@ -4,7 +4,7 @@ setup:
   yarn
 
 check:
-  tsc --strict --noEmit $(fd '\.ts$' src)
+  tsc --project . --noEmit
 
 run:
   ts-node src/index.ts
@@ -16,4 +16,4 @@ watch:
   jest --watch
 
 watch-check:
-  tsc --strict --noEmit $(fd '\.ts$' src) --watch
+  tsc --project . --noEmit --watch
