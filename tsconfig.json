@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "strict": true,
-    "types": ["jest", "node"],
-    "lib": []
+    "types": ["jest"],
+    "lib": ["es6", "DOM"],
+    "jsx": "react"
   }
 }

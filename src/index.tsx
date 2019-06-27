@@ -1,6 +1,6 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import * as React from "react";
+
+export const App = () => <>hello world</>;
 
 function run() {
   console.log("hello world");

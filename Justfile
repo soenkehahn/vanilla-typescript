@@ -10,10 +10,10 @@ run:
   ts-node src/index.ts
 
 test:
-  jest
+  jest --env jsdom
 
 watch:
-  jest --watch
+  jest --env jsdom --watch
 
 watch-check:
   tsc --project . --noEmit --watch

@@ -2,10 +2,10 @@ module.exports = {
   globals: {
     "ts-jest": {}
   },
-  moduleFileExtensions: ["ts", "js"],
+  moduleFileExtensions: ["tsx", "js"],
   transform: {
-    "^.+\\.ts$": "ts-jest"
+    "^.+\\.tsx$": "ts-jest"
   },
-  testMatch: ["**/src/*.test.ts"],
+  testMatch: ["**/src/*.test.tsx"],
   testEnvironment: "node"
 };
