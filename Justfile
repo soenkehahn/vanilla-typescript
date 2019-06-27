@@ -1,4 +1,4 @@
-all: setup check test run
+all: setup check test
 
 setup:
   yarn
